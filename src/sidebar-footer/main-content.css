@@ -62,7 +62,6 @@
     margin-left: 10px;
   }
   
-  
   .header__search input {
     background: transparent;
     border: none;
@@ -73,6 +72,7 @@
     white-space: nowrap;
     outline: none;
   }
+  
   
   .header__login .subscribe {
     color: #a7a7a7;
