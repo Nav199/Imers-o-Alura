@@ -1,0 +1,104 @@
+
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/src/sidebar-footer/vars.css">
+    <link rel="stylesheet" href="/src/sidebar-footer/main-content.css">
+    <link rel="stylesheet" href="/src/sidebar-footer/card.css">
+    <link rel="stylesheet" href="/src/sidebar-footer/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/src/sidebar-footer/reset.css">
+</head>
+<body>
+    <div class="sidebar">
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="/assets/icons/logo-spotify.png" alt="logo-spotify">
+                </a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-home"></span>
+                                <span>Início</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="fa fa-search"></span>
+                                <span>Buscar</span>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+        <div class="library">
+            <div class="library__content">
+              <button class="library__button">
+                <span class="fa fas fa-book"></span>
+                <span>Sua biblioteca</span>
+              </button>
+              <span class="fa fa-plus"></span>
+            </div>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text sub_title">É fácil vamos te ajudar</span>
+                    <button class="section-playlist__button">
+                        <span>Criar Playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="Language">
+                <button class="Language__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>    
+    </div>
+        <main>
+            <div class="main-container">
+                <nav class="header__navigation">
+                    <div class="navigation">
+                        <button class="arrow-left">
+                            <img src="/assets/icons/small-left.png" alt="Seta esquerda">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="/assets/icons/small-right.png" alt="Seta direita">
+                        </button>
+                    </div>
+                    <div class="header__search">
+                        <img src="/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+            </div>
+        </main>
+        <section class="card_navegation">
+            <div class="card_utl">
+                <div class="card_boatarde" >
+                    Boa Tarde
+                </div>
+                <div class="card_sessao" >
+                    Navegar por todas as seções
+                </div>
+            </div>
+        </section>
+</body>
+</html>
+
