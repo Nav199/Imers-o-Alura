@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     /* Colors */
     --text-base-dark: #000;
@@ -36,3 +37,13 @@
   
   @media screen and (min-width: 768px) and (max-width: 1274px) {
   }
+=======
+:root{
+    /* FONT */
+    --font-dm-sans:"DM Sans", sans-serif;
+
+    /* COLORS */
+    --bg-icon:#131313;
+    --bg-arrow-color:rgba(0,0,0,7)
+}
+>>>>>>> ea6394cebad09b77e3ff4a8d0cad43ca79905162
